@@ -1,0 +1,72 @@
+{
+    margin:0;
+    padding: 0;
+
+
+}
+body{
+    background-color: black;
+}
+h2,p{
+    color: white;
+    font-weight: bold;
+    padding: 0px 15px;
+}   
+.profile img{
+    height: 90px;
+    width: 90px;
+
+}
+.main{
+    height: 700px;
+    width: 400px;
+    margin:10px auto;
+    display: grid;
+    grid-template-rows: 120px;
+    grid-template-columns: 120px 120px 120px;
+    border: 5px solid grey;
+    column-gap: 10px;
+    position: relative;
+
+
+}
+.details{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+
+}
+.profile img{
+    margin: 20px;
+    border-radius: 50px;
+    border: 2px white solid;
+
+
+}
+h3{
+    color: white;
+    font-weight: bold;
+
+}
+
+.info{
+    margin: 10px;
+    width: 400px;
+
+
+}
+.edit button{
+    width: 90%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+.edit button:hover{
+    background-color:gray;
+
+
+}
